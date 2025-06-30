@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lessons3.sol": "Lessons3"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lessons3.sol": {
+			"keccak256": "0x6fae9e24ed2cf3dd60c5b9e6830fc708958d4266b0acbf265c0fc2795decd8b6",
+			"urls": [
+				"bzz-raw://b958bfbe6416445d4b974a8c9a9b805de471807e1b28bf7b09827dadac74b319",
+				"dweb:/ipfs/QmNzx1dFJ243ZybowZyETyjaMQX19qeucJ7HYhTu5HuTKN"
+			]
+		}
+	},
+	"version": 1
+}

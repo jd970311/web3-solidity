@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.39.0.
+ * Original file: /npm/lesson2@1.0.0/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var PORT=8080,http=require("http"),url=require("url"),path=require("path"),fs=require("fs"),mime=require("mime"),zlib=require("zlib"),ROOT="assets",server=http.createServer((function(e,r){console.log("handle requset");var t=url.parse(e.url).pathname,i=path.join("assets",t);require("mime");pathHandle(t,i,e,r)}));function pathHandle(e,r,t,i){fs.stat(r,(function(a,s){if(a)i.writeHead(404,{"Content-Type":"text/plain"}),i.write("This request URL "+e+" was not found on this server."),i.end();else{mime.lookup(e);var n=s.mtime.toUTCString(),o="If-Modified-Since".toLowerCase();i.setHeader("Server","Tengine"),i.setHeader("Last-Modified",n),t.headers[o]&&t.headers[o];var d=fs.createReadStream(r);t.headers["accept-encoding"];i.writeHead(200,"OK",{}),d.pipe(i)}}))}server.listen(PORT||8080);
+//# sourceMappingURL=/sm/007c0ca316ef8b722c8e6e614ab9fe9da14da523bcc1b0e4a4e72149f2d2d821.map

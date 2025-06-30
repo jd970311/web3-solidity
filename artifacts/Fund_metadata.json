@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "funded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lessons4.sol": "Fund"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lessons4.sol": {
+			"keccak256": "0x8d2523bd19c4e7e533f4e1a3e09d5690745718e08363ad72c74da39a4bffffc8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1b91c1264d782ccf4e1f9e80a1c70b9c624132b035da207a072570c5b3551b69",
+				"dweb:/ipfs/QmPXGT4syLs6q75iWKZD7u9XgFNXsCjcpCD3jpWiZuNKrv"
+			]
+		}
+	},
+	"version": 1
+}

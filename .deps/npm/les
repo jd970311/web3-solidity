@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.19.2.
+ * Original file: /npm/les@1.0.1/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+exports.printMsg=function(){console.log("This is a message from the demo package")};
+//# sourceMappingURL=/sm/8f73975732fb8c92afeebcaec0583fcfe260ae9a5d3984fad9a89606f1b420e4.map
